@@ -6,7 +6,8 @@
 .userProfileInner__8065b .item__183e8::before,
 .memberSinceContainer__0a28b .divider_d66e63,
 .userProfileModalInner__7c87d .relationshipButtons__5efdd,
-.userProfileModalInner__7c87d .avatar__445f3 circle {
+.userProfileModalInner__7c87d .avatar__445f3 circle,
+.userPopoutInner_f545a3 .mask__1979f circle {
   display:none !important;
 }
 .detailsWrap__4faa4 *,
@@ -29,7 +30,7 @@
 }
 .actionsProfileV2__1c710,
 .userProfileModalOverlayBackground__52d65 .botTag__4211a,
-.section__6f61e .role__631a3{
+.section__6f61e .role__631a3 {
   width:fit-content;
 }
 .section__6f61e .roles__74a2b {
@@ -38,7 +39,7 @@
 .section__6f61e .role__631a3 {
   display:inline-flex !important;
 }
-.actionsProfileV2__1c710 *{
+.actionsProfileV2__1c710 * {
   margin:4px auto !important;
   height: fit-content;
 }
@@ -50,7 +51,7 @@
 }
 .container_b6b15b div:not(.botTag__4211a),
 .userInfoSection__1daf8:not(.connectedAccounts_dc0a56),
-.memberSinceContainer__0a28b{
+.memberSinceContainer__0a28b {
   text-align:center;
   display:inherit;
   margin:0 !important;
@@ -63,7 +64,7 @@
 .userProfileModalOverlayBackground__52d65 .listRow__60937 div,
 .userProfileModalOverlayBackground__52d65 .listScroller__92e1a,
 .userProfileModalOverlayBackground__52d65 .botTag__4211a,
-.userPopoutOverlayBackground_d8afa4 .customStatusSection_ce6c27{
+.userPopoutOverlayBackground_d8afa4 .customStatusSection_ce6c27 {
   display:block;
   margin:auto;
   text-align:center;
@@ -97,10 +98,17 @@
   transform:translate(216px,-16px);
   margin:auto;
 }
-.userProfileModalInner__7c87d .avatar__445f3 rect{
+.userProfileModalInner__7c87d .avatar__445f3 .pointerEvents__33f6a {
   transform: translate(-89px,31px);
   width:87.4%;
   max-width:87.4%;
+  height:3px;
+  mask:none;
+}
+.userPopoutInner_f545a3 .mask__1979f .pointerEvents__33f6a {
+  transform: translate(-60px,20px);
+  width:87%;
+  max-width:87%;
   height:3px;
   mask:none;
 }
