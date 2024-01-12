@@ -1,0 +1,125 @@
+.connectedAccountContainer__23f00:hover:has([aria-label="Spotify"]) {
+  color: var(--spotify);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Twitch"]) {
+  color: var(--twitch);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="YouTube"]) {
+  color: var(--youtube);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Reddit"]) {
+  color: var(--reddit);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="PayPal"]) {
+  color: var(--paypal);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="TikTok"]) {
+  color: #ff0050;
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Steam"]) {
+  color: var(--steam);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Crunchyroll"]) {
+  color: var(--crunchyroll);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="eBay"]) {
+  color: var(--ebay);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Xbox"]) {
+  color: var(--xbox);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Battle.net"]) {
+  color: var(--battlenet);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="PlayStation Network"]) {
+  color: var(--playstation);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Epic Games"]) {
+  color: var(--epic-games);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="GitHub"]) {
+  color: var(--github);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="X"]) {
+  color: var(--twitter);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="League of Legends"]) {
+  color: var(--lol);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Twitter"]) {
+  color: var(--twitter);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Instagram"]) {
+  color: var(--instagram);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Riot Games"]) {
+  color: var(--riot-games);
+}
+
+.userProfileOuter__46bb7:where(.theme-dark) .connectedAccountContainer__23f00:hover:has([aria-label="Domain"]) {
+  color: white;
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Skype"]) {
+  color: var(--skype);
+}
+
+.connectedAccountContainer__23f00:hover:has([aria-label="Facebook"]) {
+  color: var(--facebook);
+}
+
+.connectedAccountContainer__23f00:hover .connectedAccountNameText__00810 {
+  color: inherit !important;
+}
+
+.connectedAccountContainer__23f00 .connectedAccountNameText__00810 {
+  color: white;
+  transition: color 0.1s ease;
+}
+
+.connectedAccountContainer__23f00:hover {
+  color: currentColor;
+  border-color: currentColor;
+  box-shadow: 0px 0px 10.9px 1px currentColor;
+}
+
+.connectedAccountContainer__23f00 {
+  transition: all 0.25s ease;
+}
+
+[src="/assets/f47485602365c946fa52.svg"] {
+  content: url("https://discord.com/assets/57a3fe2c0e62e98937fd.svg");
+}
+
+[style="/assets/f47485602365c946fa52.svg"] {
+  background-image: url("/assets/57a3fe2c0e62e98937fd.svg") !important;
+}
+
+[class*="connectionHeader_"]:has([alt="X"])>div>[class*="connectionAccountLabel_"]:before {
+  content: "Twitter";
+  color: var(--header-secondary) !important;
+  user-select: text;
+}
+
+[class*="connectionHeader_"]:has([alt="X"])>div>[class*="connectionAccountLabel_"] {
+  color: transparent !important;
+  user-select: none;
+}
