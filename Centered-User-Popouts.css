@@ -10,6 +10,9 @@
 .userPopoutInner_f545a3 .mask__1979f circle {
   display:none !important;
 }
+.userProfileModalInner__7c87d foreignObject[mask*="url(#"] {
+  mask:none;
+}
 .detailsWrap__4faa4 *,
 .state_a85ac0 *,
 .userProfileModalOverlayBackground__52d65 .listRow__60937 {
@@ -18,12 +21,12 @@
 .top__592a7,
 .connectedAccountVanityMetadata__7beb2,
 .connectedAccountNameTextContainer__0b003 {
-  justify-content: center;
+  justify-content:center;
 }
 .connectedAccountContainer__23f00,
 .userPopoutOverlayBackground_d8afa4,
 .section__6f61e .messageInput__3b049{
-  text-align: center;
+  text-align:center;
 }
 .copiableNameTag__6b220 .copiableField__0c0e7 {
   padding:0 !important;
@@ -86,13 +89,13 @@
   transform:translate(16px,12px);
   background-color:transparent;
   margin:auto;
-  justify-content: center;
+  justify-content:center;
 }
 .userProfileModalInner__7c87d .badgeList_c193e3 {
   transform:translate(-72px,28px);
   background-color:transparent;
   margin:auto;
-  justify-content: center;
+  justify-content:center;
 }
 .userProfileModalInner__7c87d .avatar__445f3 {
   transform:translate(216px,-16px);
