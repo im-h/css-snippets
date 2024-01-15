@@ -16,7 +16,7 @@
 .detailsWrap__4faa4 *,
 .state_a85ac0 *,
 .userProfileModalOverlayBackground__52d65 .listRow__60937 {
-  display:inline-block;
+  display:inline-block !important;
 }
 .top__592a7,
 .connectedAccountVanityMetadata__7beb2,
@@ -31,6 +31,7 @@
 .copiableNameTag__6b220 .copiableField__0c0e7 {
   padding:0 !important;
 }
+.actionsUserPopoutV2__025d9,
 .actionsProfileV2__1c710,
 .userProfileModalOverlayBackground__52d65 .botTag__4211a,
 .section__6f61e .role__631a3 {
@@ -42,12 +43,15 @@
 .section__6f61e .role__631a3 {
   display:inline-flex !important;
 }
-.actionsProfileV2__1c710 * {
+.actionsUserPopoutV2__025d9 button,
+.actionsUserPopoutV2__025d9 span,
+.actionsProfileV2__1c710 button,
+.actionsProfileV2__1c710 span {
   margin:4px auto !important;
-  height: fit-content;
+  height:fit-content;
 }
 .userProfileModalOverlayBackground__52d65 .assetsSmallImage__6b973 {
-  position: relative;
+  position:relative;
   top:-26px;
   left:34px;
   margin-bottom:-24px;
@@ -80,7 +84,7 @@
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41:empty) > div {
-  transform: translateX(50%);
+  transform:translateX(50%);
 }
 .userPopoutInner_f545a3 .avatarWrapper_f77579 {
   transform:translate(108px,-12px);
@@ -102,14 +106,14 @@
   margin:auto;
 }
 .userProfileModalInner__7c87d .avatar__445f3 .pointerEvents__33f6a {
-  transform: translate(-89px,31px);
+  transform:translate(-89px,31px);
   width:87.4%;
   max-width:87.4%;
   height:3px;
   mask:none;
 }
 .userPopoutInner_f545a3 .mask__1979f .pointerEvents__33f6a {
-  transform: translate(-60px,20px);
+  transform:translate(-60px,20px);
   width:87%;
   max-width:87%;
   height:3px;
