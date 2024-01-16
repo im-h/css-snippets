@@ -50,7 +50,7 @@
   margin:4px auto !important;
   height:fit-content;
 }
-.userProfileModalOverlayBackground__52d65 .assetsSmallImage__6b973 {
+.userProfileModalOverlayBackground__52d65 [class^="assetsSmallImage"] {
   position:relative;
   top:-26px;
   left:34px;
