@@ -83,6 +83,7 @@
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41:empty) > div {
   transform:translateX(50%);
 }
+/* ^^^ Thanks dav ^^^ */
 .userPopoutInner_f545a3 .avatarWrapper_f77579 {
   transform:translate(108px,-12px);
 }
