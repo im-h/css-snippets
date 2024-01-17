@@ -73,10 +73,15 @@
   margin:auto;
   text-align:center;
 }
-.connectedAccountContainer__23f00 .anchor_c8ddc0{
-  margin-left:-238px;
-  padding-left:220px;
-  opacity:0;
+[class^=connectedAccountContainer__]
+{
+  position: relative;
+}
+[class^=connectedAccountName_] a
+{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
