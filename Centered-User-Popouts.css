@@ -133,6 +133,9 @@
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#f0b232"]) {
   box-shadow: 0 0 3px #f0b232;
 }
+.userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#593695"]) {
+  box-shadow: 0 0 3px #593695;
+}
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937 rect {
   display:none;
 }
