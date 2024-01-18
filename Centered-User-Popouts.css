@@ -127,7 +127,6 @@
 }
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#80848e"]) {
   box-shadow: 0 0 3px #80848e;
-  opacity:var(--offline-visibility);
 }
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#23a55a"]) {
   box-shadow: 0 0 3px #23a55a;
@@ -143,4 +142,10 @@
 }
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937 rect {
   display:none;
+}
+.userProfileModalInner__7c87d .avatar__445f3 .pointerEvents__33f6a[fill="#80848e"] {
+  opacity:var(--offline-visibility);
+}
+.userPopoutInner_f545a3 .mask__1979f .pointerEvents__33f6a[fill="#80848e"] {
+  opacity:var(--offline-visibility);
 }
