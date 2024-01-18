@@ -1,3 +1,7 @@
+:root {
+  --offline-visibility: 1;
+}
+
 .connectedAccountVanityMetadata__7beb2,
 .connectedAccountContainerWithMetadata_cf88ce .text-xs-normal__56c35,
 .platformIcon__05c5e,
@@ -123,6 +127,7 @@
 }
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#80848e"]) {
   box-shadow: 0 0 3px #80848e;
+  opacity:var(--offline-visibility);
 }
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#23a55a"]) {
   box-shadow: 0 0 3px #23a55a;
