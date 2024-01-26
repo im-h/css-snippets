@@ -1,0 +1,46 @@
+/* THIS IS NOT MINE I SIMPLY JUST MADE IT INTO A BAREBONES IMPORT, ORIGINAL AUTHOR IS DEVILBRO AT https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css */
+:root {
+	--settingswidth: 1080;
+	--settingsheight: 80;
+	--settingswidth_v: min(calc(1px * var(--settingswidth_s, var(--settingswidth))), 99vw);
+	--settingsheight_v: min(calc(1vh * var(--settingsheight_s, var(--settingsheight))), 99vh);
+}
+.layer__2efaa~.layer__2efaa {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsmodalbackground);
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingswidth_v) !important;
+	height: var(--settingsheight_v) !important;
+	margin: auto !important;
+	padding: 0 !important;
+}
+.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d,
+.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d :is(.tools_c0ff70, .closeButton__34341) {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+}
+.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}
+.layers__1c917.layers_a23c37 .layer__2efaa {
+	visibility:visible !important;
+}
