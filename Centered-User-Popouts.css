@@ -50,10 +50,8 @@
 .userProfileInner__8065b .assets__5bee0 {
   display:inline-grid !important;
 }
-.actionsUserPopoutV2__025d9 button,
-.actionsUserPopoutV2__025d9 span,
-.actionsProfileV2__1c710 button,
-.actionsProfileV2__1c710 span {
+.actionsUserPopoutV2__025d9 :is(button,span)
+.actionsProfileV2__1c710 :is(button,span) {
   margin:4px auto !important;
   height:fit-content;
 }
@@ -66,12 +64,9 @@
 }
 .connectedAccountContainer__23f00>div,
 .userProfileActivity__68b33 *,
-.userPopoutOverlayBackground_d8afa4 .section__6f61e>*,
-.userPopoutOverlayBackground_d8afa4 .iconSizeSmol__7ee47,
+.userPopoutOverlayBackground_d8afa4 :is(.section__6f61e>*, .iconSizeSmol__7ee47)
 .section__6f61e .activity__20c1e div,
-.userProfileModalOverlayBackground__52d65 .listRow__60937 div,
-.userProfileModalOverlayBackground__52d65 .listScroller__92e1a,
-.userProfileModalOverlayBackground__52d65 .botTag__4211a,
+.userProfileModalOverlayBackground__52d65 :is(.listRow__60937 div, .listScroller__92e1a, .botTag__4211a)
 .userPopoutOverlayBackground_d8afa4 .customStatusSection_ce6c27 {
   display:block;
   margin:auto;
