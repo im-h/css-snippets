@@ -144,3 +144,12 @@
 .userPopoutInner_f545a3 .mask__1979f .pointerEvents__33f6a[fill="#80848e"] {
   opacity:var(--offline-visibility);
 }
+.userPopoutInner_f545a3 *{
+    justify-content: center !important;
+}
+.userPopoutOverlayBackground_d8afa4 .iconSizeSmol__7ee47 {
+    margin: auto;
+}
+.userPopoutOverlayBackground_d8afa4 .title_ef4a6d {
+    display:block;
+}
