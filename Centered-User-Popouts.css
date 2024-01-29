@@ -66,7 +66,7 @@
 .userProfileActivity__68b33 *,
 .userPopoutOverlayBackground_d8afa4 :is(.section__6f61e>*, .iconSizeSmol__7ee47)
 .section__6f61e .activity__20c1e div,
-.userProfileModalOverlayBackground__52d65 :is(.listRow__60937 div, .listScroller__92e1a, .botTag__4211a)
+.userProfileModalOverlayBackground__52d65 :is(.listScroller__92e1a, .botTag__4211a)
 .userPopoutOverlayBackground_d8afa4 .customStatusSection_ce6c27 {
   display:block;
   margin:auto;
@@ -155,4 +155,19 @@
 }
 .userPopoutOverlayBackground_d8afa4 .title_ef4a6d {
     display:block;
+}
+.userProfileModalOverlayBackground__52d65 .listScroller__92e1a .listRow__60937 *{
+    display:grid !important;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 75px;
+    height: fit;
+}
+.userProfileModalOverlayBackground__52d65 .listScroller__92e1a {
+    justify-content: center !important;
+    display:flex !important;
+}
+.userProfileModalOverlayBackground__52d65 .listScroller__92e1a>* {
+    height: fit-content;
 }
