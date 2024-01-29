@@ -145,7 +145,10 @@
   opacity:var(--offline-visibility);
 }
 .userPopoutInner_f545a3 *{
-    justify-content: center !important;
+    justify-content: center;
+}
+.userPopoutInner_f545a3 div div div:has(.vc-expandableheader-center-flex) {
+    display: block !important;
 }
 .userPopoutOverlayBackground_d8afa4 .iconSizeSmol__7ee47 {
     margin: auto;
