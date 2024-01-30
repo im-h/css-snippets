@@ -1,19 +1,19 @@
 .avatar__6337f:has([fill="#23a55a"]) {
   color:#23a55a;
-  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 3px currentColor)
-}
-.avatar__6337f:has([fill="#f23f43"]) {
-  color:#f23f43;
-  filter: drop-shadow(0 0 3px currentColor) drop-shadow(0 0 4px currentColor)
+  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 3px currentColor) drop-shadow(0 0 4px currentColor)
 }
 .avatar__6337f:has([fill="#f0b232"]) {
   color:#f0b232;
-  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 3px currentColor)
+  filter: drop-shadow(0 0 3px currentColor) drop-shadow(0 0 3px currentColor)
+}
+.avatar__6337f:has([fill="#f23f43"]) {
+  color:#f23f43;
+  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 5px currentColor)
 }
 .avatar__6337f:has([fill="#593695"]) {
   color:#593695;
-  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 3px currentColor)
+  filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 4px currentColor)
 }
 .avatar__6337f .wrapper_edb6e0 rect {
-  display:none;
+  display:none
 }
