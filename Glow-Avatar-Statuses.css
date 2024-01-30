@@ -14,6 +14,16 @@
   color:#593695;
   filter: drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 4px currentColor)
 }
-.avatar__6337f .wrapper_edb6e0 rect {
+.avatarWrapper_ba5175:has([aria-label*="Online"]) :is(.default_cae228,.avatar_f8541f) {
+  filter:drop-shadow(0 0 2px #23a55a) drop-shadow(0 0 3px #23a55a);
+}
+.avatarWrapper_ba5175:has([aria-label*="Idle"]) :is(.default_cae228,.avatar_f8541f) {
+  filter:drop-shadow(0 0 2px #f0b232) drop-shadow(0 0 3px #f0b232);
+}
+.avatarWrapper_ba5175:has([aria-label*="Disturb"]) :is(.default_cae228,.avatar_f8541f) {
+  filter:drop-shadow(0 0 2px #f23f43) drop-shadow(0 0 3px #f23f43);
+}
+.avatar__6337f .wrapper_edb6e0 rect,
+.avatarWrapper_ba5175 .avatar_f8541f rect{
   display:none
 }
