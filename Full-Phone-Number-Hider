@@ -1,5 +1,5 @@
 :root {
-  --reveal-margin:-86px;
+  --reveal-margin:-82px;
 }
 .constrainedRow_b9e8cf .text-md-normal__4afad:has([aria-label="Reveal phone number"]) {
   visibility:hidden;
