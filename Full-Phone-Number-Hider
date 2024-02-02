@@ -1,3 +1,6 @@
+:root {
+  --reveal-margin:86px;
+}
 .constrainedRow_b9e8cf .text-md-normal__4afad:has([aria-label="Reveal phone number"]) {
   visibility:hidden;
 }
@@ -8,7 +11,7 @@
   content:'Hidden';
   font-size:14px;
   visibility:visible;
-  margin-right:-86px;
+  margin-right:var(--reveal-margin);
 }
 .contentColumn_dc7d36:has([aria-label="Reveal phone number"]) .size14_b2af01.marginBottom8_f4aae3 {
   visibility:hidden;
