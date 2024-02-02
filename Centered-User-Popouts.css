@@ -149,3 +149,6 @@
 .userPopoutInner_f545a3 .section__6f61e+div:has(.vc-expandableheader-center-flex){
   display:inline-block !important
 }
+.vc-expandableheader-center-flex {
+  justify-content:center;
+}
