@@ -1,0 +1,15 @@
+.constrainedRow_b9e8cf .text-md-normal__4afad:has([aria-label="Reveal phone number"]) {
+  visibility:hidden;
+}
+.constrainedRow_b9e8cf .text-md-normal__4afad [aria-label="Reveal phone number"] {
+  visibility:visible;
+}
+.text-md-normal__4afad:has([aria-label="Reveal phone number"])::before {
+  content:'Hidden';
+  font-size:14px;
+  visibility:visible;
+  margin-right:-86px;
+}
+.contentColumn_dc7d36:has(.constrainedRow_b9e8cf .text-md-normal__4afad [aria-label="Reveal phone number"]) .colorStandard__5111e.size14_b2af01.description__7af71.formText_e4d957.marginBottom8_f4aae3.modeDefault_c1162c {
+  visibility:hidden;
+}
