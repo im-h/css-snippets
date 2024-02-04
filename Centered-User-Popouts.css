@@ -1,7 +1,8 @@
+@import url('https://raw.githubusercontent.com/im-h/css-snippets/main/Clickable-Connections');
+
 :root {
   --offline-visibility:1;
 }
-
 .connectedAccountVanityMetadata__7beb2,
 .connectedAccountContainerWithMetadata_cf88ce .text-xs-normal__56c35,
 .platformIcon__05c5e,
@@ -77,14 +78,6 @@
   display:grid;
   white-space:normal;
   max-width:120px
-}
-.connectedAccountContainer__23f00 .anchor_c8ddc0 {
-  position:absolute;
-  inset:0;
-  opacity:0
-}
-.connectedAccountContainer__23f00 {
-  position:relative
 }
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
