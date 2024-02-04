@@ -85,23 +85,24 @@
 }
 /* ^^^ Thanks dav ^^^ */
 .userPopoutInner_f545a3 .avatarWrapper_f77579 {
-  transform:translate(108px,-12px)
+  transform:translate(108px)
 }
 .userPopoutInner_f545a3 .profileBadges__7a7cb {
-  transform:translate(16px,12px);
+  transform:translate(16px,28px);
   background-color:transparent;
   margin:auto;
-  justify-content:center
+  justify-content:center;
+  z-index:1
 }
 .userProfileModalInner__7c87d .badgeList_c193e3 {
-  transform:translate(-72px,28px);
+  transform:translate(-72px,43px);
   background-color:transparent;
   margin:auto;
   justify-content:center
 }
 .userProfileModalInner__7c87d .avatar__445f3 {
-  transform:translate(216px,-16px);
-  margin:auto;
+  transform:translateX(216px);
+  margin:auto
 }
 .userProfileModalInner__7c87d .avatar__445f3 .pointerEvents__33f6a {
   transform:translate(-89px,31px);
