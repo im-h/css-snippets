@@ -6,7 +6,7 @@
 }
 .members__9f47b .botTag_a52f38 {
   position:absolute;
-  top:23px;
+  top:24px;
   left:0;
   right:0;
   width:fit-content;
@@ -15,7 +15,7 @@
 .members__9f47b .username__11d8c {
   white-space:normal;
 }
-.members__9f47b *{
+.members__9f47b * {
   display:block;
   text-align:center;
 }
@@ -25,18 +25,18 @@
 #channels .linkTop_eaa673 {
   height: 20px;
 }
-#channels .overflow__87fe8{
+#channels .overflow__87fe8 {
   position:absolute;
   top:0;
   left:0;
   right:0;
   text-align:center;
 }
-#channels .linkTop_eaa673 .iconContainer__3f9b0{
+#channels .linkTop_eaa673 .iconContainer__3f9b0 {
   position:absolute;
   left:0;
 }
-#channels .linkTop_eaa673 .name__8d1ec.overflow__87fe8 ~ *:not(.iconContainer__3f9b0){
+#channels .linkTop_eaa673 .name__8d1ec.overflow__87fe8 ~ *:not(.iconContainer__3f9b0) {
   position:absolute;
   right:0;
 }
