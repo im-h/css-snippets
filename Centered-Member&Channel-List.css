@@ -1,4 +1,4 @@
-#channels :is(.containerDefault__3187b .overflow__87fe8,.name__8d1ec) {
+#channels .containerDefault__3187b :is(.overflow__87fe8,.name__8d1ec) {
   position:absolute;
   left:0;
   right:0;
@@ -18,6 +18,9 @@
 #channels .linkTop_eaa673 .name__8d1ec.overflow__87fe8 ~ *:not(.iconContainer__3f9b0) {
   position:absolute;
   right:0;
+}
+#channels .linkTop_eaa673 {
+  height: 20px;
 }
 .members__9f47b * {
   display:block;
