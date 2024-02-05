@@ -22,20 +22,21 @@
 .memberInner_a32223 {
   height:fit-content;
 }
-.linkTop_eaa673 {
+#channels .linkTop_eaa673 {
   height: 20px;
 }
-.linkTop_eaa673 .name__8d1ec{
+#channels .overflow__87fe8{
   position:absolute;
+  top:0;
   left:0;
   right:0;
   text-align:center;
 }
-.linkTop_eaa673 .iconContainer__3f9b0{
+#channels .linkTop_eaa673 .iconContainer__3f9b0{
   position:absolute;
   left:0;
 }
-.linkTop_eaa673 .name__8d1ec.overflow__87fe8 ~ *:not(.iconContainer__3f9b0){
+#channels .linkTop_eaa673 .name__8d1ec.overflow__87fe8 ~ *:not(.iconContainer__3f9b0){
   position:absolute;
   right:0;
 }
