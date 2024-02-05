@@ -22,6 +22,12 @@
 #channels .linkTop_eaa673 {
   height: 20px;
 }
+#channels .linkBottom_bac113 {
+  position:relative;
+  left:9px;
+  right:0;
+  margin:auto;
+}
 .members__9f47b * {
   display:block;
   text-align:center;
