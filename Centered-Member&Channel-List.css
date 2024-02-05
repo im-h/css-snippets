@@ -41,6 +41,9 @@
 .members__9f47b .username__11d8c {
   white-space:normal;
 }
+.members__9f47b .subText_ab7e13 {
+  display:none;
+}
 .members__9f47b .botTag_a52f38 {
   display:flex;
   position:absolute;
@@ -50,6 +53,10 @@
   width:fit-content;
   margin:auto;
 }
-.members__9f47b .subText_ab7e13 {
-  display:none;
+.members__9f47b .ownerIcon__827bd {
+  position:absolute;
+  top:-6px;
+  left:0;
+  right:0;
+  margin:auto;
 }
