@@ -85,6 +85,9 @@
 .userPopoutInner_f545a3 .avatarWrapper_f77579 {
   transform:translate(108px)
 }
+.userPopoutInner_f545a3 .avatarWrapper_f77579 rect[fill="Black"] {
+  display:none;
+}
 .userPopoutInner_f545a3 .profileBadges__7a7cb {
   transform:translate(16px,28px);
   background-color:transparent;
