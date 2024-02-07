@@ -102,6 +102,9 @@
   transform:translateX(216px);
   margin:auto
 }
+.userProfileModalInner__7c87d .avatar__445f3 rect[fill="Black"] {
+  display:none;
+}
 .userProfileModalInner__7c87d .avatar__445f3 .pointerEvents__33f6a {
   transform:translate(-89px,31px);
   width:87.4%;
