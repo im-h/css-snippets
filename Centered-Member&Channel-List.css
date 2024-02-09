@@ -45,10 +45,6 @@
   display:none;
 }
 .members__9f47b .botTag_a52f38 {
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.members__9f47b:hover .botTag_a52f38 {
   display:flex;
   position:absolute;
   top:24px;
@@ -56,6 +52,10 @@
   right:0;
   width:fit-content;
   margin:auto;
+  transition: opacity 0.2s ease;
+  opacity: 0;
+}
+.members__9f47b:hover .botTag_a52f38 {
   opacity:initial;
 }
 .members__9f47b .ownerIcon__827bd {
