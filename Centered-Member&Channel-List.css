@@ -60,3 +60,9 @@
   right:0;
   margin:auto;
 }
+.container_b2ce9c:has(.membersWrap__90226)>*,.membersWrap__90226>* {
+  width:100% !important;
+}
+.membersWrap__90226 {
+  min-width:unset !important;
+}
