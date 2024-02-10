@@ -74,10 +74,13 @@
   margin:auto;
   text-align:center
 }
-.userProfileModalOverlayBackground__52d65 :is(.listRow__60937 div, .listScroller__92e1a:not(:has(.empty__18e40))) *:not(.info__40462) {
+.userProfileModalOverlayBackground__52d65 :is(.listRow__60937 div, .listScroller__92e1a:not(:has(.empty__18e40))) div:not(.info__40462,.activityProfileV2__4de28,.activityProfileV2__4de28 *) {
   display:grid;
   white-space:normal;
   max-width:120px
+}
+.userProfileInner__8065b .copyIcon_e27399 {
+  display:none;
 }
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
