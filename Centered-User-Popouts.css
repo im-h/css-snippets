@@ -52,8 +52,7 @@
 .userProfileInner__8065b .assets__5bee0 {
   display:inline-grid !important
 }
-.actionsUserPopoutV2__025d9 :is(button,span),
-.actionsProfileV2__1c710 :is(button,span) {
+:is(.actionsUserPopoutV2__025d9,.actionsProfileV2__1c710) :is(button,span) {
   margin:4px auto !important;
   height:fit-content
 }
