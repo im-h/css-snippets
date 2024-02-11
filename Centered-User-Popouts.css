@@ -18,12 +18,14 @@
 }
 .detailsWrap__4faa4 *,
 .state_a85ac0 *,
-.userProfileModalOverlayBackground__52d65 .listRow__60937 {
+.userProfileModalOverlayBackground__52d65 .listRow__60937,
+.userPopoutInner_f545a3 .section__6f61e+div:has(.vc-expandableheader-center-flex) {
   display:inline-block !important
 }
 .top__592a7,
 .connectedAccountVanityMetadata__7beb2,
-.connectedAccountNameTextContainer__0b003 {
+.connectedAccountNameTextContainer__0b003,
+.vc-expandableheader-center-flex {
   justify-content:center
 }
 .connectedAccountContainer__23f00,
@@ -80,6 +82,20 @@
 .userProfileInner__8065b .copyIcon_e27399 {
   display:none;
 }
+.userPopoutInner_f545a3 foreignObject {
+  mask:none !important;
+  border-radius:0 !important;
+}
+.userPopoutInner_f545a3 .avatarDecorationHint__03e0b {
+  border-radius:0 !important;
+  max-width:80px;
+  max-height:80px;
+  left:0;
+  top:0;
+}
+.userPopoutInner_f545a3 .avatarDecorationHint__03e0b .avatarHintInner__3d1c9 {
+  font-size: 0.84em;
+}
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41:empty) > div {
@@ -132,6 +148,10 @@
   margin:auto;
   justify-content:center
 }
+.userProfileModalInner__7c87d .avatar__445f3 circle {
+  opacity:0 !important;
+  transform:translate(-40px,54px) !important;
+}
 .userProfileModalInner__7c87d .listScroller__92e1a .listRow__60937:has([fill="#23a55a"]) {
   filter:drop-shadow(0 0 4px #23a55a)
 }
@@ -152,10 +172,4 @@
 }
 .userPopoutInner_f545a3 .wrapper_edb6e0 .pointerEvents__33f6a[fill="#80848e"] {
   opacity:var(--offline-visibility)
-}
-.userPopoutInner_f545a3 .section__6f61e+div:has(.vc-expandableheader-center-flex){
-  display:inline-block !important
-}
-.vc-expandableheader-center-flex {
-  justify-content:center;
 }
