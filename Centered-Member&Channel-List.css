@@ -65,6 +65,9 @@
   right:0;
   margin:auto;
 }
+.members__9f47b [aria-label^="Server Boost"] {
+  margin:auto;
+}
 .container_b2ce9c:has(.membersWrap__90226)>*,.membersWrap__90226>* {
   width:100% !important;
 }
