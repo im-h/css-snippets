@@ -75,3 +75,10 @@
   min-width:unset !important;
   height: 100% !important;
 }
+.members__9f47b .membersGroup__85843 .roleIcon__59ca1 {
+  margin:auto;
+}
+.members__9f47b .membersGroup__85843:has(.roleIcon__59ca1) {
+  padding:6px 8px 0 16px;
+  margin-top:16px;
+}
