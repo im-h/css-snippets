@@ -9,7 +9,7 @@
 .item__183e8:not(#account-status-picker,#account-switch-account) .iconContainerLeft__4dcea,
 .userProfileInner__8065b .item__183e8::before,
 .memberSinceContainer__0a28b .divider_d66e63,
-.userProfileModalInner__7c87d :is(.relationshipButtons__5efdd,.avatar__445f3 circle,.listScroller__92e1a .listRow__60937 rect),
+.userProfileModalInner__7c87d :is(.relationshipButtons__5efdd,.listScroller__92e1a .listRow__60937 rect),
 .userPopoutInner_f545a3 .mask__1979f circle {
   display:none !important
 }
