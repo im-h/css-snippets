@@ -29,11 +29,11 @@
   margin:auto;
 }
 #channels .list__02208.list__54b1e.listDefault__205d0 {
-  padding-left:0 !important;
-}
-#channels .list__02208.list__54b1e.listDefault__205d0 {
   flex-wrap:wrap;
   flex-direction:unset;
+}
+#channels .list__02208.list__54b1e.listDefault__205d0 .content_b60865 {
+  padding-left:0 !important;
 }
 #channels .list__02208.list__54b1e.listDefault__205d0>* {
   margin:auto;
