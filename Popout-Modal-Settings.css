@@ -1,5 +1,6 @@
 /* THIS IS NOT MINE I SIMPLY JUST MADE IT INTO A BAREBONES IMPORT, ORIGINAL AUTHOR IS DEVILBRO AT https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css */
 :root {
+	--settingsmodalbackground:var(--primary-645); /* This is the background color of the settings popout */
 	--settingswidth: 1080;
 	--settingsheight: 80;
 	--settingswidth_v: min(calc(1px * var(--settingswidth_s, var(--settingswidth))), 99vw);
