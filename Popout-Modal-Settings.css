@@ -45,3 +45,20 @@
 .layers__1c917.layers_a23c37 .layer__2efaa {
 	visibility:visible !important;
 }
+#app-mount .baseLayer__8fda3 {
+	opacity: 1 !important;
+}
+#app-mount .layer__2efaa.stop-animations:first-child::after {
+	content: "" !important;
+	position: fixed !important;
+	background: rgb(0, 0, 0) !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0.75 !important;
+	z-index: 101 !important;
+	pointer-events: none !important;
+}
