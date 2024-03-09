@@ -58,8 +58,7 @@
   height:fit-content
 }
 .container_b6b15b div:not(.botTag__4211a),
-.userInfoSection__1daf8:not(.connectedAccounts_dc0a56),
-.memberSinceContainer__0a28b {
+.userInfoSection__1daf8:not(.connectedAccounts_dc0a56) {
   text-align:center;
   display:inherit;
   margin:0 !important
@@ -178,4 +177,31 @@
 }
 .userPopoutInner_f545a3 .section__6f61e+div:nth-last-child(2):has(.vc-expandableheader-center-flex) {
   margin-bottom:0 !important;
+}
+/* TODO: Try to do this in an efficient/elegant way */
+[id^="popout_"]:has(.userPopoutInner_f545a3):not(:has(.accountProfilePopoutWrapper_af829a)) .section__6f61e:has(.memberSinceContainer__0a28b) {
+  text-align:center;
+}
+[id^="popout_"]:has(.userPopoutInner_f545a3):not(:has(.accountProfilePopoutWrapper_af829a)) .memberSinceContainer__0a28b {
+  display: inline-grid !important;
+  grid-template-columns: repeat(2, 80px);
+  grid-template-rows: 20px 0 10px 0;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.memberSinceContainer__0a28b .discordIcon_feeef1 {
+  margin: auto;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.memberSinceContainer__0a28b :nth-child(2) {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.memberSinceContainer__0a28b .iconSizeSmol__7ee47 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.memberSinceContainer__0a28b :nth-child(5) {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.memberSinceContainer__0a28b .divider_d66e63 {
+  display:none !important;
 }
