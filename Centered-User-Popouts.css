@@ -30,8 +30,10 @@
 }
 .connectedAccountContainer__23f00,
 .userPopoutOverlayBackground_d8afa4,
-.section__6f61e .messageInput__3b049{
-  text-align:center
+.section__6f61e .messageInput__3b049,
+.section__6f61e,
+.memberSinceContainer__0a28b {
+  text-align:center;
 }
 .copiableNameTag__6b220 .copiableField__0c0e7 {
   padding:0 !important
@@ -169,9 +171,6 @@
   margin-bottom:0 !important;
 }
 /* TODO: Try to do this in an efficient/elegant way */
-[id^="popout_"]:has(.userPopoutInner_f545a3):not(:has(.accountProfilePopoutWrapper_af829a)) .section__6f61e:has(.memberSinceContainer__0a28b) {
-  text-align:center;
-}
 [id^="popout_"]:has(.userPopoutInner_f545a3):not(:has(.accountProfilePopoutWrapper_af829a)) .memberSinceContainer__0a28b {
   display: inline-grid !important;
   grid-template-columns: repeat(2, 80px);
