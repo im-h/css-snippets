@@ -85,16 +85,6 @@
   mask:none !important;
   border-radius:0 !important;
 }
-.userPopoutInner_f545a3 .avatarDecorationHint__03e0b {
-  border-radius:0 !important;
-  max-width:80px;
-  max-height:80px;
-  left:0;
-  top:0;
-}
-.userPopoutInner_f545a3 .avatarDecorationHint__03e0b .avatarHintInner__3d1c9 {
-  font-size: 0.84em;
-}
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(odd)) > :last-child:nth-child(even),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41 > :last-child:nth-child(even)) > :last-child:nth-child(odd),
 .connectedAccountsColumn_fd2c41:has(+ .connectedAccountsColumn_fd2c41:empty) > div {
