@@ -173,3 +173,9 @@
 .userPopoutInner_f545a3 .wrapper_edb6e0 .pointerEvents__33f6a[fill="#80848e"] {
   opacity:var(--offline-visibility)
 }
+.userPopoutInner_f545a3 .section__6f61e+div:has(.vc-expandableheader-center-flex) {
+  margin:4px 0 4px 0 !important;
+}
+.userPopoutInner_f545a3 .section__6f61e+div:nth-last-child(2):has(.vc-expandableheader-center-flex) {
+  margin-bottom:0 !important;
+}
