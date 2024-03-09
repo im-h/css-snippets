@@ -1,7 +1,7 @@
 @import url('https://raw.githubusercontent.com/im-h/css-snippets/main/Clickable-Connections.css');
 :root {
   --offline-visibility:1;
-  --member-since-gap:100px;
+  --member-since-gap:90px;
 }
 .connectedAccountVanityMetadata__7beb2,
 .connectedAccountContainerWithMetadata_cf88ce .text-xs-normal__56c35,
