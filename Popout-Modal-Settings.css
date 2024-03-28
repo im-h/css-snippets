@@ -6,7 +6,7 @@
 	--settingswidth_v: min(calc(1px * var(--settingswidth_s, var(--settingswidth))), 99vw);
 	--settingsheight_v: min(calc(1vh * var(--settingsheight_s, var(--settingsheight))), 99vh);
 }
-.layer__2efaa~.layer__2efaa {
+.layer_f7d46a~.layer_f7d46a {
 	position: absolute !important;
 	top: 0 !important;
 	right: 0 !important;
@@ -19,8 +19,8 @@
 	margin: auto !important;
 	padding: 0 !important;
 }
-.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d,
-.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d :is(.tools_c0ff70, .closeButton__34341) {
+.layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad,
+.layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad :is(.tools_c0ff70, .closeButton__8177f) {
 	position: absolute !important;
 	top: 0 !important;
 	right: 0 !important;
@@ -37,18 +37,18 @@
 	opacity: 0 !important;
 	cursor: default !important;
 }
-.layer__2efaa~.layer__2efaa .toolsContainer_f5d55d {
+.layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad {
 	position: fixed !important;
 	top: 22px !important;
 	z-index: -1 !important;
 }
-.layers__1c917.layers_a23c37 .layer__2efaa {
+.layers__1c917.layers_a23c37 .layer_f7d46a {
 	visibility:visible !important;
 }
-#app-mount .baseLayer__8fda3 {
+#app-mount .baseLayer__2b890 {
 	opacity: 1 !important;
 }
-#app-mount .layer__2efaa.stop-animations:first-child::after {
+#app-mount .layer_f7d46a.stop-animations:first-child::after {
 	content: "" !important;
 	position: fixed !important;
 	background: rgb(0, 0, 0) !important;
