@@ -4,106 +4,106 @@
   --domainblack: #000000;
   --domainlight: #ffffff;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Spotify"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Spotify"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Spotify"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Spotify"]) {
   color: var(--spotify) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Twitch"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Twitch"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Twitch"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Twitch"]) {
   color: var(--twitch) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="YouTube"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="YouTube"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="YouTube"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="YouTube"]) {
   color: var(--youtube) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Reddit"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Reddit"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Reddit"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Reddit"]) {
   color: var(--reddit) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="PayPal"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="PayPal"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="PayPal"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="PayPal"]) {
   color: var(--paypal) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="TikTok"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="TikTok"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="TikTok"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="TikTok"]) {
   color: var(--tiktok) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Steam"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Steam"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Steam"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Steam"]) {
   color: var(--steam) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Crunchyroll"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Crunchyroll"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Crunchyroll"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Crunchyroll"]) {
   color: var(--crunchyroll) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="eBay"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="eBay"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="eBay"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="eBay"]) {
   color: var(--ebay) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Xbox"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Xbox"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Xbox"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Xbox"]) {
   color: var(--xbox) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Battle.net"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Battle.net"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Battle.net"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Battle.net"]) {
   color: var(--battlenet) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="PlayStation Network"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="PlayStation Network"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="PlayStation Network"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="PlayStation Network"]) {
   color: var(--playstation) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Epic Games"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Epic Games"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Epic Games"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Epic Games"]) {
   color: var(--epic-games) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="GitHub"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="GitHub"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="GitHub"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="GitHub"]) {
   color: var(--github) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="X"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="X"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="X"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="X"]) {
   color: var(--twitter) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="League of Legends"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="League of Legends"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="League of Legends"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="League of Legends"]) {
   color: var(--lol) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Twitter"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Twitter"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Twitter"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Twitter"]) {
   color: var(--twitter) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Instagram"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Instagram"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Instagram"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Instagram"]) {
   color: var(--instagram) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Riot Games"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Riot Games"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Riot Games"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Riot Games"]) {
   color: var(--riot-games) !important;
 }
-.userProfileOuter__46bb7:where(.theme-dark) .connectedAccountContainer__23f00:hover:has([aria-label="Domain"]) .connectedAccountNameText__00810,
-.userProfileOuter__46bb7:where(.theme-dark) .connectedAccountContainer__23f00:hover:has([aria-label="Domain"]) {
+.userProfileOuter__4ac83:where(.theme-dark) .connectedAccountContainer__5972d:hover:has([aria-label="Domain"]) .connectedAccountNameText__7abc2,
+.userProfileOuter__4ac83:where(.theme-dark) .connectedAccountContainer__5972d:hover:has([aria-label="Domain"]) {
   color: var(--domainlight) !important;
 }
-.userProfileOuter__46bb7:where(.theme-light) .connectedAccountContainer__23f00:hover:has([aria-label="Domain"]) .connectedAccountNameText__00810,
-.userProfileOuter__46bb7:where(.theme-light) .connectedAccountContainer__23f00:hover:has([aria-label="Domain"]) {
+.userProfileOuter__4ac83:where(.theme-light) .connectedAccountContainer__5972d:hover:has([aria-label="Domain"]) .connectedAccountNameText__7abc2,
+.userProfileOuter__4ac83:where(.theme-light) .connectedAccountContainer__5972d:hover:has([aria-label="Domain"]) {
   color: var(--domainblack) !important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Skype"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Skype"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Skype"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Skype"]) {
   color: var(--skype)!important;
 }
-.connectedAccountContainer__23f00:hover:has([aria-label="Facebook"]) .connectedAccountNameText__00810,
-.connectedAccountContainer__23f00:hover:has([aria-label="Facebook"]) {
+.connectedAccountContainer__5972d:hover:has([aria-label="Facebook"]) .connectedAccountNameText__7abc2,
+.connectedAccountContainer__5972d:hover:has([aria-label="Facebook"]) {
   color: var(--facebook)!important;
 }
-.connectedAccountContainer__23f00 .connectedAccountNameText__00810 {
+.connectedAccountContainer__5972d .connectedAccountNameText__7abc2 {
   transition: color 0.1s ease;
 }
-.connectedAccountContainer__23f00:hover {
+.connectedAccountContainer__5972d:hover {
   border-color: currentColor;
   box-shadow: 0px 0px 10.9px 1px currentColor;
 }
-.connectedAccountContainer__23f00 {
+.connectedAccountContainer__5972d {
   transition: all 0.25s ease;
 }
 
