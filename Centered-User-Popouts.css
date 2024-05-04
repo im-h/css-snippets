@@ -229,28 +229,30 @@
 }
 .userProfileModalInner__84e47 {
     .avatar__445f3 {
-        transform:translateX(216px);
+        left:0;
+        right:0;
         margin:auto;
+        circle {
+            display:none
+        }
         .pointerEvents__585e6 {
-            transform:translate(-89px, 31px);
-            width:87.4%;
-            max-width:87.4%;
+            width:120px;
             height:3px;
-            mask:none
+            mask:none;
+            translate:-88px 32px
         }
         .pointerEvents__585e6[mask*="mobile"] {
-            transform:translate(-89px, 43px)
+            translate:-88px 44px
         }
     }
     .headerTop_e82f16 {
-        transform:translate(-64px, 43px);
-        background-color:transparent;
-        margin:auto;
-        justify-content:center
-    }
-    .avatar__445f3 circle {
-        opacity:0 !important;
-        transform:translate(-40px, 54px) !important
+        justify-content:center;
+        left:0;
+        right:0;
+        translate:0 42px;
+        .badgeList__126b0 {
+            margin:0
+        }
     }
     .listScroller__18a19 .listRow__50619 {
         &:has([fill="#23a55a"]) {
