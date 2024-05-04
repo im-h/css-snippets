@@ -89,13 +89,13 @@
 /* ^^^ Thanks dav ^^^ */
 .userProfileInner__8ff35 {
     .copyIcon_d14424 {
-        display:none;
+        display:none
     }
     .activityUserPopoutV2__89098 {
         .activityDetails_b90109 {
             display:inline-grid;
             >* {
-                margin:auto;
+                margin:auto
             }
         }
         .timeBarUserPopoutV2__5d401 {
@@ -103,10 +103,10 @@
             .barInMultiLine__5fd01,
             .barInner__0f713 {
                 height:10px;
-                border-radius:var(--timebar-rounding);
+                border-radius:var(--timebar-rounding)
             }
             .barInMultiLine__5fd01 .barInner__0f713 {
-                margin:auto;
+                margin:auto
             }
             .flex_f18b02 {
                 display:block;
@@ -155,7 +155,7 @@
 }
 .userPopoutInner_ac0960 {
     .section__62b44:has([class*="pplication"]) .button__581d0,.fakeActivityIcon__7d0ce {
-        margin:auto;
+        margin:auto
     }
     .section__62b44+div:has(.vc-expandableheader-center-flex) {
         display:inline-block !important;
