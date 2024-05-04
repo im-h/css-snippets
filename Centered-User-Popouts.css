@@ -154,7 +154,7 @@
     }
 }
 .userPopoutInner_ac0960 {
-    .section__62b44:has([class*="pplication"]) .button__581d0 {
+    .section__62b44:has([class*="pplication"]) .button__581d0,.fakeActivityIcon__7d0ce {
         margin:auto;
     }
     .section__62b44+div:has(.vc-expandableheader-center-flex) {
