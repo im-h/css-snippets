@@ -6,6 +6,7 @@
     --timebar-text-color: black;
     --timebar-popout-text-margin: -14px;
     --timebar-modal-text-margin: -10px;
+    --timebar-rounding: 100px;
 }
 
 .connectedAccountVanityMetadata__10ae9,
@@ -124,7 +125,7 @@
             .barInMultiLine__5fd01,
             .barInner__0f713 {
                 height: 10px;
-                border-radius: 99px;
+                border-radius: var(--timebar-rounding);
             }
 
             .barInMultiLine__5fd01 .barInner__0f713 {
@@ -174,7 +175,7 @@
 
             .barInner__0f713,
             .barInMultiLine__5fd01 {
-                border-radius: 99px;
+                border-radius: var(--timebar-rounding);
             }
         }
 
