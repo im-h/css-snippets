@@ -190,6 +190,10 @@
 }
 
 .userPopoutInner_ac0960 {
+    .section__62b44:has([class*="pplication"]) .button__581d0 {
+        margin: auto;
+    }
+
     .section__62b44+div:has(.vc-expandableheader-center-flex) {
         display: inline-block !important;
         margin: 4px 0 4px 0 !important;
