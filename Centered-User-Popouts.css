@@ -175,7 +175,10 @@
         right:50%;
         justify-content:center;
         .avatarHint__15059 {
-            left:-40px
+        	left:-40px
+        }
+        .avatarDecorationHint__04b99 {
+        	left:-48px
         }
     }
     .mask_d5067d .pointerEvents__585e6 {
