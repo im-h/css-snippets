@@ -1,5 +1,4 @@
 #channels .containerDefault_ae2ea4 :is(.overflow__993fa,.name__4eb92) {
-  position:absolute;
   left:0;
   right:0;
   text-align:center;
@@ -11,16 +10,13 @@
   right:0;
   text-align:center;
 }
-#channels .linkTop_c8969d .iconContainer__6a580 {
+#channels :is(.linkTop_c8969d,.content__6bf34) .iconContainer__6a580 {
   position:absolute;
   left:0;
 }
 #channels .linkTop_c8969d .name__4eb92.overflow__993fa ~ *:not(.iconContainer__6a580) {
   position:absolute;
   right:0;
-}
-#channels .linkTop_c8969d {
-  height: 20px;
 }
 #channels .linkBottom__942a1 {
   position:relative;
