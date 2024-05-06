@@ -263,22 +263,22 @@
         }
     }
     .listScroller__18a19 .listRow__50619 {
-        &:has([fill="#23a55a"]) {
+        div:has([fill="#23a55a"]) {
             filter:drop-shadow(0 0 4px #23a55a)
         }
-        &:has([fill="#f0b232"]) {
+        div:has([fill="#f0b232"]) {
             filter:drop-shadow(0 0 4px #f0b232)
         }
-        &:has([fill="#f23f43"]) {
+        div:has([fill="#f23f43"]) {
             filter:drop-shadow(0 0 3px #f23f43)
         }
-        &:has([fill="#593695"]) {
+        div:has([fill="#593695"]) {
             filter:drop-shadow(0 0 4px #593695)
         }
-        &:has([fill="#80848e"]) {
+        div:has([fill="#80848e"]) {
             filter:drop-shadow(0 0 calc(var(--offline-visibility) * 2px) #80848e)
         }
-        &[fill="#80848e"] {
+        div[fill="#80848e"] {
             .pointerEvents__585e6 {
                 opacity:var(--offline-visibility)
             }
