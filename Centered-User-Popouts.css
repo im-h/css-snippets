@@ -27,8 +27,7 @@
 .connectedAccountVanityMetadata__10ae9,
 .connectedAccountNameTextContainer_e6ac0d,
 .vc-expandableheader-center-flex,
-.section__62b44 *,
-.profileMutuals__95dc2 .avatars__52387 {
+.section__62b44 * {
     justify-content:center
 }
 .connectedAccountContainer__5972d,
@@ -213,7 +212,9 @@
         }
     }
     .profileMutuals__95dc2 {
-        margin-bottom:-12px;
+		h2 {
+  			margin:auto
+ 		}
 		.compactItemContainer__55b3e {
 			display:grid;
             margin:auto;
@@ -224,7 +225,10 @@
 			}
 			.avatarAndTextContainer_feb963 {
   				display:grid;
-  				justify-content:center
+  				justify-content:center;
+				.avatars__52387 {
+					justify-content:center
+				}
 			}
 		}
 		.serverContainer__93bca {
