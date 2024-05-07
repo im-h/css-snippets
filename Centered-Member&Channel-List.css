@@ -35,8 +35,8 @@
 #channels .list__02208.list__54b1e.listDefault__4e3fa .content__3b07e {
   padding-left:0 !important;
 }
-#channels .list__02208.list__54b1e.listDefault__4e3fa>* {
-  margin:auto;
+#channels .list__02208.list__54b1e.listDefault__4e3fa {
+  justify-content:center;
 }
 .members__573eb * {
   display:block;
