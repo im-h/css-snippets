@@ -1,7 +1,6 @@
 @import url('https://raw.githubusercontent.com/im-h/css-snippets/main/Clickable-Connections.css');
 :root {
     --offline-visibility:1;
-    --member-since-gap:90px;
     --timebar-text-color:black;
     --timebar-popout-text-margin:-14px;
     --timebar-modal-text-margin:-10px;
