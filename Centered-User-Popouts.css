@@ -41,17 +41,8 @@
 }
 .actionsUserPopoutV2__46596,
 .actionsProfileV2_eea61b,
-.userProfileModalOverlayBackground_a5b043 .botTag__4211a,
-.section__62b44 .role_d81130 {
+.userProfileModalOverlayBackground_a5b043 .botTag__4211a {
     width:fit-content
-}
-.section__62b44 .roles__74a2b {
-    margin-top:4px !important
-}
-.section__62b44 .role_d81130,
-.root_a99273.roles__74a2b {
-    display:inline-flex !important;
-    justify-content:center
 }
 :is(.actionsUserPopoutV2__46596, .actionsProfileV2_eea61b) :is(button, span) {
     margin:4px auto !important;
@@ -151,6 +142,20 @@
     }
 }
 .userPopoutInner_ac0960 {
+	.section__62b44 {
+         .roles__74a2b {
+            margin-top:4px !important;
+            .role_d81130 {
+                width:fit-content;
+                margin: 0 2px 4px 2px;
+            }
+        }
+        .root_a99273.roles__74a2b,
+        .role_d81130 {
+            display:inline-flex !important;
+            justify-content:center
+        }
+    }
     .section__62b44:has([class*="pplication"]) .button__581d0,
     .fakeActivityIcon__7d0ce {
         margin:auto
