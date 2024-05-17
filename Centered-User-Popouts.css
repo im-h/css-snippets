@@ -5,8 +5,8 @@
     --timebar-text-color:black;
     --timebar-popout-text-margin:-14px;
     --timebar-modal-text-margin:-10px;
-	--timebar-rounding:100px;
-	--member-since-width:80px;
+    --timebar-rounding:100px;
+    --member-since-width:80px;
 }
 .connectedAccountVanityMetadata__10ae9,
 .connectedAccountContainerWithMetadata_c474f9 .text-xs-normal__46d75,
@@ -201,7 +201,7 @@
         >* {
             display:block;
             margin:auto;
-			width:var(--member-since-width);
+            width:var(--member-since-width);
         }
         :first-child {
             margin-right:0
