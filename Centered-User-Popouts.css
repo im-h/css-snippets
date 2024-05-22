@@ -207,10 +207,10 @@
             margin:auto;
             width:var(--member-since-width);
         }
-        :first-child {
+        .memberSince__2eba7:first-child {
             margin-right:0
         }
-        :last-child {
+        .memberSince__2eba7:last-child {
             margin-left:0
         }
         [class^=icon] {
