@@ -267,6 +267,7 @@
         justify-content:center;
         left:0;
         right:0;
+        width:100%;
         translate:0 42px;
         .badgeList__126b0 {
             margin:0
@@ -294,7 +295,7 @@
             }
         }
     }
-	.userInfoText_b87307.markup_a7e664 + div .defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.userInfoSectionHeader_c9f1d3 + .defaultColor__30336.text-sm-normal__95a78.userInfoText_b87307 {
-  		margin-bottom:8px
+	.memberSinceWrapper__03059 .defaultColor__30336.text-sm-normal__95a78.body__323bb.userInfoText_b87307:last-child {
+  	    margin-bottom:8px
 	}
 }
