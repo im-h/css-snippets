@@ -1,7 +1,7 @@
 :root {
   --reveal-margin:-82px;
 }
-.constrainedRow__72f7a .text-md-normal__6e567:has([aria-label="Reveal phone number"]) {
+.constrainedRow__1fed1 .text-md-normal__6e567:has([aria-label="Reveal phone number"]) {
   visibility:hidden;
 }
 [aria-label="Reveal phone number"] {
@@ -13,6 +13,6 @@
   visibility:visible;
   margin-right:var(--reveal-margin);
 }
-.contentColumn__5f80b:has([aria-label="Reveal phone number"]) .size14_b2af01.marginBottom8_ce1fb9 {
+.contentColumn__23e6b:has([aria-label="Reveal phone number"]) .size14_a4e6b9.marginBottom8_fd297e {
   visibility:hidden;
 }
