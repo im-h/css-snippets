@@ -6,140 +6,140 @@
   --domainlight: #ffffff;
 }
 
-.connectedAccountContainer__5972d:hover {
+.connectedAccountContainer_e6abe8:hover {
 
-  &:has([aria-label="Spotify"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Spotify"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Spotify"]) {
     color: var(--spotify) !important;
   }
 
-  &:has([aria-label="Twitch"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Twitch"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Twitch"]) {
     color: var(--twitch) !important;
   }
 
-  &:has([aria-label="YouTube"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="YouTube"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="YouTube"]) {
     color: var(--youtube) !important;
   }
 
-  &:has([aria-label="Reddit"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Reddit"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Reddit"]) {
     color: var(--reddit) !important;
   }
 
-  &:has([aria-label="PayPal"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="PayPal"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="PayPal"]) {
     color: var(--paypal) !important;
   }
 
-  &:has([aria-label="TikTok"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="TikTok"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="TikTok"]) {
     color: var(--tiktok) !important;
   }
 
-  &:has([aria-label="Steam"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Steam"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Steam"]) {
     color: var(--steam) !important;
   }
 
-  &:has([aria-label="Crunchyroll"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Crunchyroll"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Crunchyroll"]) {
     color: var(--crunchyroll) !important;
   }
 
-  &:has([aria-label="eBay"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="eBay"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="eBay"]) {
     color: var(--ebay) !important;
   }
 
-  &:has([aria-label="Xbox"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Xbox"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Xbox"]) {
     color: var(--xbox) !important;
   }
 
-  &:has([aria-label="Battle.net"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Battle.net"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Battle.net"]) {
     color: var(--battlenet) !important;
   }
 
-  &:has([aria-label="PlayStation Network"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="PlayStation Network"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="PlayStation Network"]) {
     color: var(--playstation) !important;
   }
 
-  &:has([aria-label="Epic Games"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Epic Games"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Epic Games"]) {
     color: var(--epic-games) !important;
   }
 
-  &:has([aria-label="GitHub"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="GitHub"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="GitHub"]) {
     color: var(--github) !important;
   }
 
-  &:has([aria-label="X"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="X"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="X"]) {
     color: var(--twitter) !important;
   }
 
-  &:has([aria-label="League of Legends"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="League of Legends"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="League of Legends"]) {
     color: var(--lol) !important;
   }
 
-  &:has([aria-label="Twitter"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Twitter"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Twitter"]) {
     color: var(--twitter) !important;
   }
 
-  &:has([aria-label="Instagram"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Instagram"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Instagram"]) {
     color: var(--instagram) !important;
   }
 
-  &:has([aria-label="Riot Games"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Riot Games"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Riot Games"]) {
     color: var(--riot-games) !important;
   }
 
-  &:has([aria-label="Skype"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Skype"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Skype"]) {
     color: var(--skype) !important;
   }
 
-  &:has([aria-label="Facebook"]) .connectedAccountNameText__7abc2,
+  &:has([aria-label="Facebook"]) .connectedAccountNameText_e6abe8,
   &:has([aria-label="Facebook"]) {
     color: var(--facebook) !important;
   }
 }
 
-.userProfileOuter__4ac83:where(&.theme-dark) .connectedAccountContainer__5972d:hover {
+.userProfileOuter_c69a7b:where(&.theme-dark) .connectedAccountContainer_e6abe8:hover {
   &:has([aria-label="Domain"]) {
-    .connectedAccountNameText__7abc2 {
+    .connectedAccountNameText_e6abe8 {
       color: var(--domainlight) !important;
     }
   }
 }
 
-.userProfileOuter__4ac83:where(&.theme-light) .connectedAccountContainer__5972d:hover {
+.userProfileOuter_c69a7b:where(&.theme-light) .connectedAccountContainer_e6abe8:hover {
   &:has([aria-label="Domain"]) {
-    .connectedAccountNameText__7abc2 {
+    .connectedAccountNameText_e6abe8 {
       color: var(--domainblack) !important;
     }
   }
 }
 
-.connectedAccountContainer__5972d .connectedAccountNameText__7abc2 {
+.connectedAccountContainer_e6abe8 .connectedAccountNameText_e6abe8 {
   transition: color 0.1s ease;
 }
 
-.connectedAccountContainer__5972d:hover {
+.connectedAccountContainer_e6abe8:hover {
   border-color: currentColor;
   box-shadow: 0px 0px 10.9px 1px currentColor;
 }
 
-.connectedAccountContainer__5972d {
+.connectedAccountContainer_e6abe8 {
   transition: all 0.25s ease;
 }
 
