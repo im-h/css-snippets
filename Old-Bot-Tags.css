@@ -2,15 +2,13 @@
   --bot-tag: "BOT"
 }
 
-.botTagRegular__82f07 {
-  & .botText__82f07 {
-    visibility: hidden;
+.botText__82f07 {
+  visibility: hidden;
 
-    &:before {
-      visibility: visible;
-      position: absolute;
-      content: var(--bot-tag)
-    }
+  &:before {
+    visibility: visible;
+    position: absolute;
+    content: var(--bot-tag)
   }
 }
 
