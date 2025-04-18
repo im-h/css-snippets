@@ -1,3 +1,14 @@
+@import "https://raw.githubusercontent.com/im-h/css-snippets/main/Clickable-Connections.css";
+ 
+:root {
+  --offline-visibility: 1;
+  --timebar-text-color: black;
+  --timebar-popout-text-margin: -14px;
+  --timebar-modal-text-margin: -10px;
+  --timebar-rounding: 100px;
+  --member-since-width: 86px
+}
+
 .connectedAccountVanityMetadata_fffe42,
 .connectedAccountContainerWithMetadata_e6abe8 .text-xs-normal__46d75,
 .platformIcon__2ef49,
