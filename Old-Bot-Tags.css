@@ -7,8 +7,8 @@
     --bot-staff-tag: "BOT • Staff";
     --bot-owner-tag: "BOT • Owner"
 }
-.botTagRegular_fc4b4a {
-    &[data-tag^="app"] .botText_daff56 {
+.botTagRegular__82f07 {
+    &[data-tag^="app"] .botText__82f07 {
         visibility: hidden;
         &:before {
             visibility: visible;
@@ -16,43 +16,43 @@
             position: absolute
         }
     }
-    &[data-tag="app"] .botText_daff56 {
+    &[data-tag="app"] .botText__82f07 {
         &:before {
             content:var(--bot-tag)
         }
     }
-    &[data-tag="app • vc mod"] .botText_daff56 {
+    &[data-tag="app • vc mod"] .botText__82f07 {
         &:before {
             content:var(--bot-vc-tag)
         }
     }
-    &[data-tag="app • chat mod"] .botText_daff56 {
+    &[data-tag="app • chat mod"] .botText__82f07 {
         &:before {
             content:var(--bot-chat-tag)
         }
     }
-    &[data-tag="app • mod"] .botText_daff56 {
+    &[data-tag="app • mod"] .botText__82f07 {
         &:before {
             content:var(--bot-mod-tag)
         }
     }
-    &[data-tag="app • admin"] .botText_daff56 {
+    &[data-tag="app • admin"] .botText__82f07 {
         &:before {
             content:var(--bot-admin-tag)
         }
     }
-    &[data-tag="app • staff"] .botText_daff56 {
+    &[data-tag="app • staff"] .botText__82f07 {
         &:before {
             content:var(--bot-staff-tag)
         }
     }
-    &[data-tag="app • owner"] .botText_daff56 {
+    &[data-tag="app • owner"] .botText__82f07 {
         &:before {
             content:var(--bot-owner-tag)
         }
     }
 }
-.notAppAsidePanel__95814:has([aria-label="Verified App"]:hover) .layer__6b5c3.disabledPointerEvents__214b3 .tooltip__7b090.tooltipTop_e50d2d.tooltipPrimary__51b23.tooltipDisablePointerEvents__2978d .tooltipContent_adb6d5 {
+.notAppAsidePanel_a3002d:has([aria-label="Verified App"]:hover) .layer_da8173.disabledPointerEvents_da8173 .tooltip__382e7.tooltipTop__382e7.tooltipPrimary__382e7.tooltipDisablePointerEvents__382e7 .tooltipContent__382e7 {
     visibility: hidden;
     &:before {
         content: "Verified Bot";
@@ -63,7 +63,7 @@
         left: 0
     }
 }
-.applicationInstallButtonText__90897 {
+.applicationInstallButtonText_cd1424 {
     visibility: hidden;
     &:before {
         content: "Add Bot";
