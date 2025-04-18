@@ -1,5 +1,5 @@
 :root {
-  --bot-tag: "BOT";
+  --bot-tag: "BOT"
 }
 
 .botTagRegular__82f07 {
@@ -38,6 +38,6 @@
   }
 
   & svg,path {
-    color: var(--button-secondary-text);
+    color: var(--button-secondary-text)
   }
 }
