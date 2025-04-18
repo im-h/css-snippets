@@ -2,7 +2,7 @@
   --bot-tag: "BOT"
 }
 
-.botText__82f07 {
+.botTag__82f07:not(.botTagAI__82f07) .botText__82f07 {
   visibility: hidden;
 
   &:before {
