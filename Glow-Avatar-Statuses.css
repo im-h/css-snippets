@@ -1,29 +1,29 @@
-.avatar__6337f:has([fill="#23a55a"]) {
+.avatar__91a9d:has([fill="#23a55a"]) {
   color:#23a55a;
   filter:drop-shadow(0 0 2px currentColor) drop-shadow(0 0 3px currentColor) drop-shadow(0 0 4px currentColor)
 }
-.avatar__6337f:has([fill="#f0b232"]) {
+.avatar__91a9d:has([fill="#f0b232"]) {
   color:#f0b232;
   filter:drop-shadow(0 0 3px currentColor) drop-shadow(0 0 3px currentColor)
 }
-.avatar__6337f:has([fill="#f23f43"]) {
+.avatar__91a9d:has([fill="#f23f43"]) {
   color:#f23f43;
   filter:drop-shadow(0 0 2px currentColor) drop-shadow(0 0 5px currentColor)
 }
-.avatar__6337f:has([fill="#593695"]) {
+.avatar__91a9d:has([fill="#593695"]) {
   color:#593695;
   filter:drop-shadow(0 0 2px currentColor) drop-shadow(0 0 2px currentColor) drop-shadow(0 0 4px currentColor)
 }
-.avatarWrapper__500a6:has([fill="#23a55a"]) :is(.default__74311,.avatar_f8541f) {
+.avatarWrapper__37e49:has([fill="#23a55a"]) :is(.default__0263c,.avatar__37e49) {
   filter:drop-shadow(0 0 2px #23a55a) drop-shadow(0 0 3px #23a55a)
 }
-.avatarWrapper__500a6:has([fill="#f0b232"]) :is(.default__74311,.avatar_f8541f) {
+.avatarWrapper__37e49:has([fill="#f0b232"]) :is(.default__0263c,.avatar__37e49) {
   filter:drop-shadow(0 0 2px #f0b232) drop-shadow(0 0 3px #f0b232)
 }
-.avatarWrapper__500a6:has([fill="#f23f43"]) :is(.default__74311,.avatar_f8541f) {
+.avatarWrapper__37e49:has([fill="#f23f43"]) :is(.default__0263c,.avatar__37e49) {
   filter:drop-shadow(0 0 2px #f23f43) drop-shadow(0 0 3px #f23f43)
 }
-.avatar__6337f .wrapper__3ed10 rect,
-.avatarWrapper__500a6 .avatar_f8541f rect{
+.avatar__91a9d .wrapper__44b0c rect,
+.avatarWrapper__37e49 .avatar__37e49 rect{
   display:none
 }
