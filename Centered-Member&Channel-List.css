@@ -1,3 +1,8 @@
+:root {
+  --vc-user-min-width: 48px;
+  --vc-user-max-width: 80px
+}
+
 #channels {
   & .containerDefault__29444 .overflow__82b15 {
     text-align: center;
@@ -26,9 +31,13 @@
         left: 0
       }
 
-      & .name__2ea32.overflow__82b15~:not(.iconContainer__2ea32) {
-        position: absolute;
-        right: 0
+      & .name__2ea32.overflow__82b15 {
+        max-width:calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - a80px) !important;
+      
+        &~:not(.iconContainer__2ea32) {
+          position: absolute;
+          right: 0
+        }
       }
     }
 
@@ -54,7 +63,7 @@
       & .content__07f91 {
         text-align: center;
         display: grid;
-        padding-left: 0 !important;
+        padding: 0px 4px !important;
 
         & * {
           margin: auto
@@ -65,7 +74,16 @@
         }
 
         & .container__91e7c {
-          min-width: 48px
+          min-width: var(--vc-user-min-width);
+          max-width: var(--vc-user-max-width);
+
+          & .chipletParent__91e7c {
+            display:none;
+          }
+
+          & .username__07f91 {
+            text-overflow: clip;
+          }
         }
 
         & .iconGroup__07f91 {
@@ -84,41 +102,46 @@
   }
 }
 
-.container_c8ffbb:has(.membersWrap_c8ffbb)>*,
-.membersWrap_c8ffbb>* {
-  width: fit-content !important
-}
-
 .membersWrap_c8ffbb {
   min-width: unset !important;
-  height: 100% !important;
 
   & :hover .botTag__5d473 {
     opacity: initial !important
   }
 
   & .members_c8ffbb {
-    & * {
-      text-align: center;
-      display: block
+    scrollbar-gutter: stable both-edges;
+
+    & *:not(.overflow__82b15>*) {
+      display: block;
+      text-align: center
     }
 
     & .membersGroup_c8ffbb {
       max-width: 224px;
       margin-left: 4px;
 
-      & * {
+      & .roleIcon__1e6f1 {
         white-space: normal;
         margin: auto
       }
     }
 
     & .member__5d473 {
-      & .memberInner__5d473 {
-        height: fit-content;
+      margin: auto;
 
-        & .avatar__91a9d {
-          margin: auto
+      & .nameplated__91a9d {
+        padding-right: 8px !important
+      }
+
+      & .memberInner__5d473 {
+        height: 100%;
+        margin: auto;
+        padding-right: 8px;
+
+        & .avatar__91a9d,.subText__91a9d * {
+          margin: auto;
+          text-align: center
         }
 
         & .content__91a9d {
@@ -126,7 +149,8 @@
             white-space: normal
           }
 
-          & .subText__91a9d,
+          /* & .subText__91a9d, */
+          & .dot_c9d15c,
           & .clanTag__5d473,
           & [aria-label^="Server Boost"] {
             display: none
