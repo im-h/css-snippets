@@ -332,7 +332,12 @@
     margin: auto
   }
 
+		& .body_ce8328 {
+    text-align: center;
+  }
+
   & .body__5be3e>div {
+    text-align: center;
     display: block;
     place-items: center;
   
