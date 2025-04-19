@@ -2,10 +2,6 @@
  
 :root {
   --offline-visibility: 1;
-  --timebar-text-color: black;
-  --timebar-popout-text-margin: -14px;
-  --timebar-modal-text-margin: -10px;
-  --timebar-rounding: 100px;
   --member-since-width: 86px;
   --status-height: 4px
 }
