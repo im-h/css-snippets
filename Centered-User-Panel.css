@@ -1,0 +1,58 @@
+.panels_c48ade {
+  text-align: center;
+
+  & .activityPanel_c48ade {
+    display: grid;
+
+    & .body__5dec7 {
+      display: grid;
+      place-items: center;
+      justify-content: center;
+
+      & .gameWrapper__8c6c2 {
+        display: grid;
+        align-items: center;
+
+        & .gameIconWrapper__8c6c2 {
+          margin-bottom: 4px
+        }
+
+        & .info__8c6c2 {
+          margin: 0
+        }
+      }
+
+      & .actions__4cd01 {
+        margin: 0;
+
+        & .panelButtonContainer__4cd01 button {
+          margin: 2px 0 0
+        }
+      }
+    }
+  }
+
+  & #vc-spotify-info-wrapper {
+    display: block
+  }
+
+  & #vc-spotify-progress-bar  {
+    margin-top: 4em
+  }
+
+  & .container__37e49 {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    place-items: center;
+
+    & .avatarWrapper__37e49 {
+      display: grid;
+      place-items: center;
+
+      & .hoverRoll__0263c {
+        text-align: center
+      }
+    }
+  }  
+}
