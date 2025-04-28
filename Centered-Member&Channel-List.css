@@ -111,18 +111,27 @@
 
   & .members_c8ffbb {
     scrollbar-gutter: stable both-edges;
+    text-align: center;
 
-    & *:not(.overflow__82b15>*) {
+    & .memberInner__5d473 {
       display: block;
-      text-align: center
+
+      & .nameAndDecorators__91a9d {
+        justify-content: center
+      }
     }
 
     & .membersGroup_c8ffbb {
       max-width: 224px;
-      margin-left: 4px;
+      margin: auto;
+      padding-right: 0;
+      padding-left: 0;
+
+      & span {
+        display: block;
+      }
 
       & .roleIcon__1e6f1 {
-        white-space: normal;
         margin: auto
       }
     }
@@ -149,7 +158,6 @@
             white-space: normal
           }
 
-          & .dot_c9d15c,
           & .clanTag__5d473,
           & [aria-label^="Server Boost"] {
             display: none
