@@ -38,7 +38,7 @@
           translate: -88px 32px;
           mask: none;
 
-          &[mask*=mobile] {
+          &[mask$=mobile\)] {
             translate: -88px 44px
           }
         }
@@ -239,7 +239,7 @@
       translate: -60px 20px;
       mask: none;
 
-      &[mask*=mobile] {
+      &[mask$=mobile\)] {
         translate: -60px 28px
       }
     }
