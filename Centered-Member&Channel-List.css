@@ -82,16 +82,16 @@
           margin-top: 4px
         }
 
-        & .container__91e7c {
+        & .container__394db {
           min-width: var(--vc-user-min-width);
           max-width: var(--vc-user-max-width);
 
-          & .chipletParent__91e7c {
-            display:none;
+          & .chipletParent__394db {
+            display: none
           }
 
           & .username__07f91 {
-            text-overflow: clip;
+            text-overflow: clip
           }
         }
 
