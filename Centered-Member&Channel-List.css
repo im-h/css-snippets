@@ -3,6 +3,15 @@
   --vc-user-max-width: 80px
 }
 
+.guildDropdown_f37cb1 {
+  margin: auto
+}
+
+.inviteButton_f37cb1 {
+  position: absolute;
+  right: 8px
+}
+
 #channels {
   & .containerDefault__29444 .overflow__82b15 {
     text-align: center;
