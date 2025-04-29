@@ -1,6 +1,7 @@
 :root {
   --vc-user-min-width: 48px;
-  --vc-user-max-width: 80px
+  --vc-user-max-width: 80px;
+  --member-list-status-height: 2px
 }
 
 .guildDropdown_f37cb1 {
@@ -137,7 +138,7 @@
       padding-left: 0;
 
       & span {
-        display: block;
+        display: block
       }
 
       & .roleIcon__1e6f1 {
@@ -161,6 +162,24 @@
           margin: auto;
           text-align: center
         }
+        
+        & .mask__44b0c {
+          & .pointerEvents__44b0c {
+            width: 32px;
+            height: var(--member-list-status-height);
+            translate: -22px 10px;
+            mask: none;
+
+            &[mask$=mobile\)] {
+              translate: -22px 15px
+            }
+          }
+
+          & circle[fill=black],
+          & rect[fill=black] {
+            display: none
+          }
+        }
 
         & .content__91a9d {
           & .username__5d473 {
@@ -177,23 +196,17 @@
           }
 
           & .ownerIcon__5d473 {
-            margin: auto;
             position: absolute;
-            top: -6px;
-            left: 0;
-            right: 0
+            margin: auto;
+            top: -6px
           }
 
           & .botTag__5d473 {
-            opacity: 0;
-            width: fit-content;
-            margin: auto;
-            transition: opacity .2s;
-            display: flex;
             position: absolute;
-            top: 24px;
-            left: 0;
-            right: 0
+            top: 22px;
+            opacity: 0;
+            margin: 0;
+            transition: opacity 200ms
           }
         }
       }
