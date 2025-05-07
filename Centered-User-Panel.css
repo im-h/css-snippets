@@ -1,3 +1,7 @@
+:root {
+  --user-panel-status-height: 3px
+}
+
 .panels_c48ade {
   text-align: center;
 
@@ -49,9 +53,28 @@
     & .avatarWrapper__37e49 {
       display: grid;
       place-items: center;
+      border-radius: 0;
 
       & .hoverRoll__0263c {
         text-align: center
+      }
+
+      & .mask__44b0c {
+        & .pointerEvents__44b0c {
+          width: 40px;
+          height: var(--user-panel-status-height);
+          translate: -28px 12px;
+          mask: none
+        }
+
+        & circle[fill=black],
+        & rect[fill=black] {
+          display: none
+        }
+
+        & foreignObject {
+          mask: none
+        }
       }
     }
   }  
