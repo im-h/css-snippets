@@ -179,6 +179,10 @@
           & rect[fill=black] {
             display: none
           }
+
+          & foreignObject {
+            mask: none
+          }
         }
 
         & .content__91a9d {
