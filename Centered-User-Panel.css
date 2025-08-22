@@ -2,6 +2,10 @@
   --user-panel-status-height: 3px
 }
 
+[id^="popout_"]:has(#rtc_debug_panel-tab) {
+  left: calc((var(--custom-guild-sidebar-width) - var(--space-xs) - 294px) / 2) !important
+}
+
 .panels_c48ade {
   text-align: center;
 
@@ -33,6 +37,23 @@
           margin: 2px 0 0
         }
       }
+    }
+  }
+
+  & .connection_e131a9 {
+    flex-direction: column;
+    justify-content: center;
+
+    & .rtcConnectionStatus__06d62 {
+      justify-content: center;
+
+      &:has(.rtcConnectionStatusLabel__06d62:hover) {
+        margin-left: 27.19px
+      }
+    }
+
+    & .voiceButtonsContainer_e131a9 {
+      margin-left: 0
     }
   }
 
